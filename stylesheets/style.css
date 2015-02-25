@@ -86,8 +86,8 @@
     margin-left: -15px;
     top: 0;
     background: transparent url('../img/minhand.png') no-repeat 0 0;
-    -webkit-animation: minutes 3600s steps(60, end) infinite;
-    animation: minutes 60s steps(60, end) infinite;
+    -webkit-animation: minutes 3600s steps(3600, end) infinite;
+            animation: minutes 3600s steps(3600, end) infinite;
 }
 
 .arrow-hour{
@@ -99,10 +99,8 @@
     left: 50%;
     margin-left: -15px;
     top: 0;
-    -webkit-transform: rotate(30deg);
-    transform: rotate(60deg);
     background: transparent url('../img/hourhand.png') no-repeat 0 0;
     -webkit-animation: hours 216000s steps(216000, end) infinite;
-    animation: hours 216000s steps(216000, end) infinite;
+            animation: hours 216000s steps(216000, end) infinite;
 }
 
